@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source  = { :hg => "http://Guest:Guest@bjhyzy2015.imwork.net:808/hg/D:/datacenter/xCalendar",:bramch => "2.0.0"}
+  s.source  = { :hg => "http://Guest:Guest@bjhyzy2015.imwork.net:808/hg/D:/datacenter/xCalendar",:branch => "2.0.0"}
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

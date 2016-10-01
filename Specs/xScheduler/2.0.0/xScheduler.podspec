@@ -66,7 +66,7 @@ Pod::Spec.new do |s|
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-   s.ios.deployment_target = "8.0"
+   s.ios.deployment_target = "9.0"
   # s.osx.deployment_target = "10.7"
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source  = { :hg => "http://Guest:Guest@bjhyzy2015.imwork.net:808/hg/D:/datacenter/xScheduler"}
+  s.source  = { :hg => "http://Guest:Guest@bjhyzy2015.imwork.net:808/hg/D:/datacenter/xScheduler",:branch => "2.0.0"}
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
