@@ -15,18 +15,18 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "xFramework"
+  s.name         = "xCalendar"
   s.version      = "2.0.0"
-  s.summary      = "iOS Application framework"
+  s.summary      = "Calendar Module"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = "the framework for iOS Application  (for Swift 3.0)."
+  s.description  = "the Calendar Module for iOS Application (for Swift 3.0)."
 
-  s.homepage     = "https://github.com/bjhyzy/xFramework"
+  s.homepage     = "https://github.com/bjhyzy/xCalendar"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = { :type => "MIT",:file => "LICENSE" }
+  s.license      = { :type => 'MIT' }
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -77,9 +77,8 @@ Pod::Spec.new do |s|
   #  Specify the location from where the source should be retrieved.
   #  Supports git, hg, bzr, svn and HTTP.
   #
-  #
 
-  s.source  = { :hg => "http://Guest:Guest@bjhyzy2015.imwork.net:808/hg/D:/datacenter/xFramework", :branch => "2.0.0" }
+  s.source  = { :hg => "http://Guest:Guest@bjhyzy2015.imwork.net:808/hg/D:/datacenter/xCalendar",:bramch => "2.0.0"}
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "xFramework", "xFramework/**/*.{h,swift}"
+  s.source_files  = "xCalendar", "xCalendar/**/*.{h,swift}"
 
   #s.public_header_files = "xFramework/**/*.h"
 
@@ -104,12 +103,7 @@ Pod::Spec.new do |s|
   #
 
   #s.resource = "xFramework/**/*.xcassets"
-  s.resources = ["xFramework/**/*.extension",
-  				 "xFramework/**/*.xib",
-  				 "xFramework/**/*.xcassets",
-  				 "xFramework/**/*.lproj",
-  				 "xFramework/**/*.otf",
-  				 "xFramework/**/*.ttf"]
+  s.resources = ["xCalendar/**/*.extension","xCalendar/**/*.xib","xCalendar/**/*.xcassets","xCalendar/**/*.lproj"]
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
@@ -136,16 +130,9 @@ Pod::Spec.new do |s|
    s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-   s.dependency 'AlamofireObjectMapper', '~> 4.0.0'
-   s.dependency 'XLForm', '~> 3.2.0'
-   #s.dependency 'SwiftDate', '~> 3.0.8'
-   #s.dependency 'DateTools'
-   s.dependency 'AlamofireImage', '~> 3.0.0'
-   s.dependency 'NVActivityIndicatorView', '~> 3.0'
-   s.dependency 'Proposer','~> 1.0.0'
-   s.dependency 'JVFloatLabeledTextField','~> 1.1.1'
-   s.dependency 'AEXML', '~> 4.0.0'
-   #s.dependency 'FontAwesomeKit', '~> 2.2.0'
-   #s.dependency 'FontAwesome','~> 4.5.0'
+   s.dependency 'xFramework','~> 2.0.0'
+   s.dependency 'xContacts','~> 2.0.0'
+   s.dependency 'xScheduler','~> 2.0.0'
+   s.dependency 'REMenu'
 
 end
