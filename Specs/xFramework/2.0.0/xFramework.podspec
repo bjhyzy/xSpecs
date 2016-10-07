@@ -145,6 +145,7 @@ Pod::Spec.new do |s|
    s.dependency 'Proposer','~> 1.0.0'
    s.dependency 'JVFloatLabeledTextField','~> 1.1.1'
    s.dependency 'AEXML', '~> 4.0.0'
+   s.dependency 'ReachabilitySwift', '~> 3'
    #s.dependency 'FontAwesomeKit', '~> 2.2.0'
    #s.dependency 'FontAwesome','~> 4.5.0'
 
