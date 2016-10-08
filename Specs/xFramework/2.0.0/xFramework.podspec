@@ -140,6 +140,7 @@ Pod::Spec.new do |s|
    s.dependency 'XLForm', '~> 3.2.0'
    #s.dependency 'SwiftDate', '~> 3.0.8'
    #s.dependency 'DateTools'
+   s.dependency 'AlamofireNetworkActivityIndicator'
    s.dependency 'AlamofireImage', '~> 3.0.0'
    s.dependency 'NVActivityIndicatorView', '~> 3.0'
    s.dependency 'Proposer','~> 1.0.0'
