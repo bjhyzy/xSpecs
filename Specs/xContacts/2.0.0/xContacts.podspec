@@ -103,7 +103,7 @@ Pod::Spec.new do |s|
   #
 
   #s.resource = "xFramework/**/*.xcassets"
-  s.resources = ["xContacts/**/*.extension","xContacts/**/*.xib","xContacts/**/*.xcassets","xContacts/**/*.lproj"]
+  s.resources = ["xContacts/**/*.extension","xContacts/**/*.xib","xContacts/**/*.xcassets","xContacts/**/*.lproj","xContacts/**/*.xcdatamodeld"]
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
