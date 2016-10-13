@@ -147,6 +147,9 @@ Pod::Spec.new do |s|
    s.dependency 'JVFloatLabeledTextField','~> 1.1.1'
    s.dependency 'AEXML', '~> 4.0.0'
    s.dependency 'ReachabilitySwift', '~> 3'
+   #s.dependency 'WordPress-iOS-Editor'
+   s.dependency 'UINavigationItem+Loading'
+   #s.dependency 'Sync', '~> 2'
    #s.dependency 'FontAwesomeKit', '~> 2.2.0'
    #s.dependency 'FontAwesome','~> 4.5.0'
 
