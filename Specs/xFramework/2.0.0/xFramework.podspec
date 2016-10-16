@@ -105,11 +105,11 @@ Pod::Spec.new do |s|
 
   #s.resource = "xFramework/**/*.xcassets"
   s.resources = ["xFramework/**/*.extension",
-  				 "xFramework/**/*.xib",
-  				 "xFramework/**/*.xcassets",
-  				 "xFramework/**/*.lproj",
-  				 "xFramework/**/*.otf",
-  				 "xFramework/**/*.ttf"]
+           "xFramework/**/*.xib",
+           "xFramework/**/*.xcassets",
+           "xFramework/**/*.lproj",
+           "xFramework/**/*.otf",
+           "xFramework/**/*.ttf"]
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
@@ -149,6 +149,7 @@ Pod::Spec.new do |s|
    s.dependency 'ReachabilitySwift', '~> 3'
    #s.dependency 'WordPress-iOS-Editor'
    s.dependency 'UINavigationItem+Loading'
+   s.dependency 'SVProgressHUD'
    #s.dependency 'Sync', '~> 2'
    #s.dependency 'FontAwesomeKit', '~> 2.2.0'
    #s.dependency 'FontAwesome','~> 4.5.0'
