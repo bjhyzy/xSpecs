@@ -149,7 +149,7 @@ Pod::Spec.new do |s|
    s.dependency 'ReachabilitySwift', '~> 3'
    #s.dependency 'WordPress-iOS-Editor'
    s.dependency 'UINavigationItem+Loading'
-   s.dependency 'SVProgressHUD'
+   s.dependency 'MBProgressHUD'
    #s.dependency 'Sync', '~> 2'
    #s.dependency 'FontAwesomeKit', '~> 2.2.0'
    #s.dependency 'FontAwesome','~> 4.5.0'
