@@ -150,6 +150,7 @@ Pod::Spec.new do |s|
    #s.dependency 'WordPress-iOS-Editor'
    s.dependency 'UINavigationItem+Loading'
    s.dependency 'MBProgressHUD'
+   s.dependency 'RAMAnimatedTabBarController'
    #s.dependency 'Sync', '~> 2'
    #s.dependency 'FontAwesomeKit', '~> 2.2.0'
    #s.dependency 'FontAwesome','~> 4.5.0'
