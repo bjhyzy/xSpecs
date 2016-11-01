@@ -138,7 +138,7 @@ Pod::Spec.new do |s|
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
    s.dependency 'AlamofireObjectMapper', '~> 4.0.0'
    s.dependency 'XLForm', '~> 3.2.0'
-   #s.dependency 'SwiftDate', '~> 3.0.8'
+   s.dependency 'SwiftDate','~> 4.0.2'
    #s.dependency 'DateTools'
    s.dependency 'AlamofireNetworkActivityIndicator'
    s.dependency 'AlamofireImage', '~> 3.0.0'
