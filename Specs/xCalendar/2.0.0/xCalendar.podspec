@@ -103,7 +103,7 @@ Pod::Spec.new do |s|
   #
 
   #s.resource = "xFramework/**/*.xcassets"
-  s.resources = ["xCalendar/**/*.extension","xCalendar/**/*.xib","xCalendar/**/*.xcassets","xCalendar/**/*.lproj"]
+  s.resources = ["xCalendar/**/*.extension","xCalendar/**/*.xib","xCalendar/**/*.xcassets","xCalendar/**/*.lproj","xCalendar/**/*.xcdatamodeld"]
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
