@@ -156,5 +156,5 @@ Pod::Spec.new do |s|
    #s.dependency 'FontAwesomeKit', '~> 2.2.0'
    #s.dependency 'FontAwesome','~> 4.5.0'
    s.dependency 'MXParallaxHeader'
-
+   s.dependency 'IQKeyboardManagerSwift'
 end
