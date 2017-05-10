@@ -158,4 +158,5 @@ Pod::Spec.new do |s|
    s.dependency 'MXParallaxHeader'
    s.dependency 'IQKeyboardManagerSwift'
    s.dependency 'EncryptedCoreData','~> 3.1'
+   s.dependency 'Toaster'
 end
