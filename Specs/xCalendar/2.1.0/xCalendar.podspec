@@ -133,6 +133,6 @@ Pod::Spec.new do |s|
    s.dependency 'xScheduler','~> 2.0.0'
    s.dependency 'REMenu'
    s.dependency  'Toaster'
-   s.dependency  'RVCalendarWeekView'
+   s.dependency  'WRCalendarView'
 
 end
