@@ -139,5 +139,4 @@ Pod::Spec.new do |s|
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
    s.dependency 'xContacts','~> 2.0.0'
    s.dependency 'SwiftLocation'
-   s.dependency 'AMap3DMap'
 end
