@@ -106,6 +106,7 @@ Pod::Spec.new do |s|
   #s.resource = "xFramework/**/*.xcassets"
   s.resources = ["xLocation/**/*.extension",
            "xLocation/**/*.xib",
+           "xLocation/**/*.xcdatamodeld",
            "xLocation/**/*.xcassets",
            "xLocation/**/*.lproj",
            "xLocation/**/*.otf",
@@ -138,5 +139,5 @@ Pod::Spec.new do |s|
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
    s.dependency 'xContacts','~> 2.0.0'
    s.dependency 'SwiftLocation'
-   s.dependency 'AMap3DMap-NO-IDFA'
+   s.dependency 'AMap3DMap'
 end
