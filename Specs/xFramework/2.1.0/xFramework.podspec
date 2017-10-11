@@ -147,7 +147,7 @@ Pod::Spec.new do |s|
    s.dependency 'Proposer','~> 1.0.0'
    s.dependency 'JVFloatLabeledTextField','~> 1.1.1'
    s.dependency 'AEXML', '~> 4.0.0'
-   s.dependency 'ReachabilitySwift', '~> 3'
+   s.dependency 'ReachabilitySwift'
    #s.dependency 'WordPress-iOS-Editor'
    s.dependency 'UINavigationItem+Loading'
    s.dependency 'MBProgressHUD'
