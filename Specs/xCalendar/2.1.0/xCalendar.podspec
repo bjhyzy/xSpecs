@@ -134,5 +134,6 @@ Pod::Spec.new do |s|
    s.dependency 'REMenu'
    s.dependency  'Toaster'
    s.dependency  'WRCalendarView'
+   s.dependency  'FSCalendar'
 
 end
