@@ -79,7 +79,8 @@ Pod::Spec.new do |s|
   #
   #
 
-  s.source  = { :hg => "http://Guest:Guest@bjhyzy2015.imwork.net:808/hg/D:/datacenter/xFramework", :branch => "2.1.0" }
+  #s.source  = { :hg => "http://Guest:Guest@bjhyzy2015.imwork.net:808/hg/D:/datacenter/xFramework", :branch => "2.1.0" }
+  s.source  = { :path => "~/projects/swift3/xFramework"}
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
