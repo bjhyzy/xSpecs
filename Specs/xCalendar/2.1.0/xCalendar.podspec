@@ -135,5 +135,6 @@ Pod::Spec.new do |s|
    s.dependency  'Toaster'
    s.dependency  'WRCalendarView'
    s.dependency  'FSCalendar'
+   s.dependency  'XLPagerTabStrip'
 
 end
